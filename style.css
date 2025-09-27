@@ -1,3 +1,4 @@
+/* Navbar Style */
 .navbar {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -7,6 +8,36 @@
   font-size: 20px; 
 }
 
+.nav-link:hover {
+  color: rgb(76, 7, 82);
+}
+
+/* .navbar-brand {
+  padding-left: 20%;
+} */
+
+/* Home Section */
 #home {
   padding-top: 20%;
+  padding-bottom: 20%;
 }
+
+.home-gradient {
+  background: radial-gradient(circle, #57cc99ff,  #629460);
+}
+
+/* color */
+.colorpallete {
+--persian-indigo: #301466ff;
+--rebecca-purple: #5c3d99ff;
+--verdigris: #38a3a5ff;
+--emerald: #629460;
+--hijau-pastel: #86cb92;
+--light-green: #80ed99ff;
+--robin-egg-blue: #30c5d2ff;
+--indigo: #471069ff;
+}
+
+/* Font */
+
+
