@@ -1,7 +1,7 @@
 /* Navbar Style */
 .navbar {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .navbar .nav-link {
@@ -9,21 +9,32 @@
 }
 
 .nav-link:hover {
-  color: rgb(76, 7, 82);
+  color: rgb(163, 1, 120);
 }
 
-/* .navbar-brand {
-  padding-left: 20%;
-} */
+.teks {
+  color: #fff;
+}
 
 /* Home Section */
 #home {
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 180px;
+  padding-bottom: 100px;
 }
 
 .home-gradient {
-  background: radial-gradient(circle, #57cc99ff,  #629460);
+  background: linear-gradient(to top, rgb(132, 66, 147), rgb(80, 228, 164), #579cad);
+}
+
+
+.btn {
+  background-color: rgb(154, 107, 215);
+  color: #fff;
+  
+} 
+
+.btn:hover {
+  background-color:  #5c3d99ff;
 }
 
 /* color */
