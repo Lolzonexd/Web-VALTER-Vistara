@@ -20,12 +20,12 @@
 /* Home Section */
 #home {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .home-gradient {
   /* background: linear-gradient(to top, #5ee7df, #b490ca); */
-  background:  #301466ff;
+  background:  rgb(55, 14, 79);
 }
 
 #home h1 {
@@ -58,6 +58,11 @@
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
 }
 
+/* About Section */
+#about {
+  padding-top: 10%;
+}
+
 /* color */
 .colorpallete {
 --persian-indigo: #301466ff;
@@ -73,6 +78,14 @@
 .green {
   color:  rgb(103, 186, 148);
 }
+
+/* Asset */
+/* .koin {
+  position: absolute;
+  left: 15%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+} */
 
 /* Font */
 .poppins-extrabold {
@@ -98,3 +111,28 @@
   font-weight: 500;
   font-style: italic;
 }
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.lilita {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
