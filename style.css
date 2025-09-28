@@ -20,7 +20,7 @@
 /* Home Section */
 #home {
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 30px;
 }
 
 .home-gradient {
@@ -46,21 +46,25 @@
 }
 
 .btn {
-  background-color: rgb(154, 107, 215);
+  background-color:#e41c97f6;
   color: #fff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 } 
 
 .btn:hover {
-  background-color: rgb(218, 42, 171);
+  background-color: rgb(154, 107, 215);
   transform: translateY(-3px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
 }
 
+.wave {
+  margin-top: -50px;
+}
+
 /* About Section */
 #about {
-  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 /* color */
@@ -80,12 +84,13 @@
 }
 
 /* Asset */
-/* .koin {
+.brush {
   position: absolute;
   left: 15%;
   top: 100%;
-  transform: translate(-50%, -50%);
-} */
+  transform: translate(-50%, -60%);
+  z-index: 10;
+}
 
 /* Font */
 .poppins-extrabold {
