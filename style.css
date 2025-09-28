@@ -58,8 +58,23 @@
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
 }
 
+/* Decor */
+
 .wave {
   margin-top: -50px;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.brush {
+  position: absolute;
+  left: 15%;
+  top: 100%;
+  transform: translate(-50%, -60%);
+  z-index: 10;
 }
 
 /* About Section */
@@ -71,7 +86,7 @@
 .colorpallete {
 --persian-indigo: #301466ff;
 --rebecca-purple: #5c3d99ff;
---verdigris: #38a3a5ff;
+--verdigris: rgb(69, 235, 238);
 --emerald: #629460;
 --hijau-pastel: #86cb92;
 --light-green: #80ed99ff;
@@ -81,15 +96,6 @@
 
 .green {
   color:  rgb(103, 186, 148);
-}
-
-/* Asset */
-.brush {
-  position: absolute;
-  left: 15%;
-  top: 100%;
-  transform: translate(-50%, -60%);
-  z-index: 10;
 }
 
 /* Font */
