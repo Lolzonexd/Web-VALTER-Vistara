@@ -1,4 +1,13 @@
 /* Navbar Style */
+.navbar {
+  background: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgb(55, 14, 79);
+}
+
 .navbar .nav-link {
   font-size: 20px; 
 }
@@ -29,7 +38,7 @@
 }
 
 #home h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 30px;
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
@@ -95,7 +104,7 @@
   width: 500px;
   height: 250px;
   margin: auto;
-  box-shadow: 0 8px 15px black;
+  box-shadow: 0 8px 10px black;
   color: #fff;
   align-items: center;
   justify-content: center;
@@ -111,7 +120,7 @@
   width: 500px;
   height: 250px;
   margin: auto;
-  box-shadow: 0 8px 15px #e41c97f6;
+  box-shadow: 0 8px 10px #e41c97f6;
   align-items: center;
   justify-content: center;
   display: flex;
