@@ -57,14 +57,15 @@
 .btn {
   background-color:#e41c97f6;
   color: #fff;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 15px;
 } 
 
 .btn:hover {
   background-color: rgb(154, 107, 215);
   transform: translateY(-3px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Decor */
@@ -124,6 +125,13 @@
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+.rel {
+  margin-top: 40px;
+  position: absolute;
+  right: 0%;
+  display: block;
 }
 
 /* color */
