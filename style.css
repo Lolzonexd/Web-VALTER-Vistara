@@ -9,7 +9,7 @@
 }
 
 .navbar .nav-link {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
 .nav-link:hover {
@@ -34,33 +34,33 @@
 
 .home-gradient {
   /* background: linear-gradient(to top, #5ee7df, #b490ca); */
-  background:  rgb(55, 14, 79);
+  background: rgb(55, 14, 79);
 }
 
 #home h1 {
   font-size: 3rem;
   margin-top: 30px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 #home h3 {
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 
 }
 
 #home p {
   font-size: 1rem;
   margin-top: 20px;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .btn {
-  background-color:#e41c97f6;
+  background-color: #e41c97f6;
   color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 15px;
-} 
+}
 
 .btn:hover {
   background-color: rgb(154, 107, 215);
@@ -98,14 +98,14 @@
 
 .kotak1 {
   aspect-ratio: 1 / 1;
-  border: 2px solid black;       
+  border: 2px solid black;
   padding: 20px;
-  background:  #e41c97f6;
-  border-radius: 10px;        
+  background: #e41c97ea;
+  border-radius: 10px;
   width: 500px;
   height: 250px;
   margin: auto;
-  box-shadow: 0 8px 10px black;
+  box-shadow: 0 8px 10px grey;
   color: #fff;
   align-items: center;
   justify-content: center;
@@ -114,14 +114,14 @@
 
 .kotak2 {
   aspect-ratio: 1 / 1;
-  border: 2px solid black;       
+  border: 2px solid black;
   padding: 20px;
-  background:  #fff;
-  border-radius: 10px;        
+  background: #fff;
+  border-radius: 10px;
   width: 500px;
   height: 250px;
   margin: auto;
-  box-shadow: 0 8px 10px #e41c97f6;
+  box-shadow: 0 8px 10px #f169bdf6;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -134,19 +134,92 @@
   display: block;
 }
 
+/* Timeline Section */
+#timeline h1 {
+  padding-top: 10%;
+  padding-bottom: 20px;
+}
+
+.timeline-container {
+  position: relative;
+  margin: 50px auto;
+  max-width: 900px;
+  padding-top: 2opx;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  border-left: 4px dashed #000000;
+  z-index: 1;
+}
+
+.timeline-step {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 4px solid #e41c97;
+  color: #e41c97;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(228, 28, 151, 0.3);
+  z-index: 2;
+  top: 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 100px;
+  top: 0;
+}
+
+.timeline-card {
+  background: rgba(55, 14, 79, 0.861);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 7px 12px grey;
+  padding: 20px;
+  width: 40%;
+  position: relative;
+}
+
+.timeline-item:nth-child(odd) .timeline-card {
+  margin-right: auto;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-card {
+  margin-left: auto;
+  text-align: left;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
 /* color */
 .colorpallete {
---persian-indigo: #301466ff;
---rebecca-purple: #5c3d99ff;
---emerald: #629460;
---hijau-pastel: #86cb92;
---light-green: #80ed99ff;
---robin-egg-blue: #30c5d2ff;
---indigo: #471069ff;
+  --persian-indigo: rgb(55, 14, 79);
+  --rebecca-purple: #5c3d99ff;
+  --light-green: #80ed99ff;
+  --robin-egg-blue: #30c5d2ff;
+  --pink: #e41c97f6;
+  --grey: #747276;
 }
 
 .green {
-  color:  rgb(103, 186, 148);
+  color: rgb(103, 186, 148);
 }
 
 /* Font */
@@ -197,4 +270,3 @@
   font-weight: 400;
   font-style: normal;
 }
-
