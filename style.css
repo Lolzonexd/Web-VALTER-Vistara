@@ -40,32 +40,32 @@
 #home h1 {
   font-size: 3rem;
   margin-top: 30px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 5px 8px rgba(0, 0, 0, 0.922);
 }
 
-#home h3 {
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-
+#home h4 {
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.843);
 }
 
 #home p {
   font-size: 1rem;
   margin-top: 20px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.814);
 }
 
 .btn {
   background-color: #e41c97f6;
   color: #fff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.656);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 15px;
 }
 
 .btn:hover {
   background-color: rgb(154, 107, 215);
+  color: #080808d5;
   transform: translateY(-3px);
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.623);
 }
 
 /* Decor */
@@ -89,54 +89,67 @@
 
 /* About Section */
 #about {
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 #about h1 {
+  font-size: 3rem;
   padding-bottom: 30px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
 }
 
 .kotak1 {
-  aspect-ratio: 1 / 1;
-  border: 2px solid black;
-  padding: 20px;
-  background: #e41c97ea;
+  border: 1px solid black;
+  padding-top: 5%;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(55, 14, 79, 0.861);
   border-radius: 10px;
-  width: 500px;
-  height: 250px;
-  margin: auto;
-  box-shadow: 0 8px 10px grey;
+  width: 600px;
+  height: 280px;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: auto;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.881);
   color: #fff;
   align-items: center;
   justify-content: center;
-  display: flex;
+  text-align: center;
 }
 
 .kotak2 {
-  aspect-ratio: 1 / 1;
-  border: 2px solid black;
-  padding: 20px;
+  border: 1px solid black;
+  padding-top: 6%;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: #fff;
   border-radius: 10px;
-  width: 500px;
-  height: 250px;
-  margin: auto;
-  box-shadow: 0 8px 10px #f169bdf6;
+  width: 600px;
+  height: 280px;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: auto;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.881);
   align-items: center;
   justify-content: center;
-  display: flex;
+  text-align: center;
 }
 
-.rel {
-  margin-top: 40px;
-  position: absolute;
-  right: 0%;
-  display: block;
+.tiva {
+  height: 680px;
+  width: auto;
+  padding-top: 5px;
+  display: flex;
+  padding-left: 35px;
 }
 
 /* Timeline Section */
 #timeline h1 {
-  padding-top: 10%;
+  font-size: 3rem;
+  padding-top: 5%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
   padding-bottom: 20px;
 }
 
@@ -218,8 +231,12 @@
   --grey: #747276;
 }
 
-.green {
-  color: rgb(103, 186, 148);
+.pink {
+  color: #e41c97;
+}
+
+.ungu {
+  color: rgb(55, 14, 79);
 }
 
 /* Font */
