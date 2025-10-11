@@ -145,6 +145,14 @@
   padding-left: 35px;
 }
 
+/* Lomba Valter Section */
+#lomba h1 {
+  font-size: 3rem;
+  padding-top: 5%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
+  padding-bottom: 20px;
+}
+
 /* Timeline Section */
 #timeline h1 {
   font-size: 3rem;
@@ -168,7 +176,6 @@
   width: 4px;
   height: 100%;
   border-left: 4px dashed #000000;
-  z-index: 1;
 }
 
 .timeline-step {
@@ -200,7 +207,7 @@
   background: rgba(55, 14, 79, 0.861);
   color: #fff;
   border-radius: 15px;
-  box-shadow: 0 7px 12px grey;
+  box-shadow: 0 7px 12px rgb(22, 21, 21);
   padding: 20px;
   width: 40%;
   position: relative;
@@ -221,6 +228,10 @@
   transition: 0.3s;
 }
 
+.shadow {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
+}
+
 /* color */
 .colorpallete {
   --persian-indigo: rgb(55, 14, 79);
@@ -237,6 +248,10 @@
 
 .ungu {
   color: rgb(55, 14, 79);
+}
+
+.hitam {
+  color: #000000;
 }
 
 /* Font */
