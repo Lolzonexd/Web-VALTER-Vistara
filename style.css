@@ -145,6 +145,38 @@
   padding-left: 35px;
 }
 
+/* Guest Star Section */
+#guest h1 {
+  font-size: 3rem;
+  padding-top: 5%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
+  padding-bottom: 20px;
+}
+
+teksg {
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+}
+
+.guest1 {
+  height: 600px;
+  width: auto;
+  padding-top: 5px;
+  display: flex;
+}
+
+.guest2 {
+  height: 680px;
+  width: auto;
+  padding-top: 5px;
+  display: flex;
+}
+
+
+
 /* Lomba Valter Section */
 #lomba h1 {
   font-size: 3rem;
