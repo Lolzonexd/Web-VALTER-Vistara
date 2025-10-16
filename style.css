@@ -118,6 +118,11 @@
   text-align: center;
 }
 
+.kotak1:hover {
+  transform: translateX(10px);
+  transition: 0.3s;
+}
+
 .kotak2 {
   border: 1px solid black;
   padding-top: 6%;
@@ -135,6 +140,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.kotak2:hover {
+  transform: translateX(-10px);
+  transition: 0.3s;
 }
 
 .tiva {
@@ -161,6 +171,11 @@
   display: flex;
 }
 
+.guest1:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
 .guest2 {
   height: 640px;
   width: auto;
@@ -169,6 +184,10 @@
   display: flex;
 }
 
+.guest2:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
 
 
 /* Lomba Valter Section */
