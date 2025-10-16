@@ -153,25 +153,19 @@
   padding-bottom: 20px;
 }
 
-teksg {
-  padding-top: 5%;
-  align-items: center;
-  justify-content: center;
-  display: block;
-  text-align: center;
-}
-
 .guest1 {
   height: 600px;
   width: auto;
   padding-top: 5px;
+  margin-left: 50px;
   display: flex;
 }
 
 .guest2 {
-  height: 680px;
+  height: 640px;
   width: auto;
   padding-top: 5px;
+  margin-left: 50px;
   display: flex;
 }
 
