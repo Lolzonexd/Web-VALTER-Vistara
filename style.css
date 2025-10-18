@@ -312,6 +312,35 @@ video:hover {
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
 }
 
+/* Open Partner / Sponsor Section */
+#sponsor h1 {
+  font-size: 3rem;
+  padding-top: 5%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.605);
+  padding-bottom: 20px;
+}
+
+.medpart {
+  width: 700px;
+}
+
+#sponsor h2 {
+  font-size: 2rem;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.h31 {
+  font-size: 1.5rem;
+  margin-left: 35%;
+}
+
+.h32 {
+  font-size: 1.5rem;
+  margin-left: 20%;
+
+}
+
 /* color */
 .colorpallete {
   --persian-indigo: rgb(55, 14, 79);
@@ -367,7 +396,7 @@ video:hover {
 
 .poppins-regular-italic {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-style: italic;
 }
 
