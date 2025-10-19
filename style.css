@@ -313,6 +313,9 @@ video:hover {
 }
 
 /* Open Partner / Sponsor Section */
+#sponsor {
+  padding-bottom: 10%;
+}
 #sponsor h1 {
   font-size: 3rem;
   padding-top: 5%;
@@ -341,6 +344,28 @@ video:hover {
 
 }
 
+/* Footer */
+ .footer {
+  background-color: #3a1a58;
+}
+
+.footer a:hover {
+  color: #e41c97;
+}
+
+hr.border-warning {
+  opacity: 0.6;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
 /* color */
 .colorpallete {
   --persian-indigo: rgb(55, 14, 79);
@@ -349,6 +374,10 @@ video:hover {
   --robin-egg-blue: #30c5d2ff;
   --pink: #e41c97f6;
   --grey: #747276;
+}
+
+.putih {
+  color: #fff;
 }
 
 .pink {
@@ -378,7 +407,7 @@ video:hover {
 
 .poppins-extralight {
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
